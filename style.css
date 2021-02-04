@@ -37,26 +37,27 @@ nav a{
   border-radius: 15px;
 }
 
-main{
-  background: lightsalmon;
+.cards{
+background: var(--bg);
   display: flex;
-  height: 900px;
+  flex-wrap: wrap;
 }
-main .card{
+.card{
   width: 350px;
-  height: 400px;
+  /* height: 400px; */
+  width: calc(25% - 20px);
   background: white;
   border: 2px solid black;
   padding: 20px;
   margin: 20px;
 }
 
-main .card h3{
+.card h3{
   color: red;
   margin-bottom: 10px;
 }
 
-button{
+.card button{
   width: 140px;
   height: 30px;
   border-radius: 5px;
@@ -66,17 +67,9 @@ button{
   background: var(--gray);
   cursor: pointer;
 }
-button:hover{
+.card button:hover{
   background: #cccccc;
 }
-
-
-main .card .card-title {
-  font-weight: bold;
-  color: red;
-
-}
-
 
 footer{
   height: 70px;
