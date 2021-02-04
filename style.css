@@ -28,6 +28,7 @@ header {
 nav a{
   text-decoration: none;
   padding-right: 20px;
+  color: black;
 }
 .search{
   width: 300px;
@@ -39,6 +40,7 @@ nav a{
 main{
   background: lightsalmon;
   display: flex;
+  height: 900px;
 }
 main .card{
   width: 350px;
@@ -47,20 +49,25 @@ main .card{
   border: 2px solid black;
   padding: 20px;
   margin: 20px;
+}
 
-  
+main .card h3{
+  color: red;
+  margin-bottom: 10px;
 }
 
 button{
-  width: 100px;
+  width: 140px;
   height: 30px;
+  border-radius: 5px;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  background: var(--gray)
+  margin-top: 10px;
+  background: var(--gray);
+  cursor: pointer;
 }
 button:hover{
-  background: #cccccc; 
+  background: #cccccc;
 }
 
 
