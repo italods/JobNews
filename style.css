@@ -55,18 +55,18 @@ nav a{
   display: flex;
   flex-wrap: wrap;
 }
+
 .card{
   width: calc(25% - 20px);
-  background: white;
-  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
   padding: 20px;
- /*  width: 350px;
-  
-  margin: 20px; */
+  background: white;
 }
 
 .card h3{
-  color: red;
+  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -88,11 +88,3 @@ footer{
   height: 70px;
   background: var(--gray);
 }
-
-/*
-.card-text
-.card-text
-.btnNews
-footer
-
-*/
